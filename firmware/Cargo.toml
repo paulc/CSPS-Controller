@@ -1,0 +1,51 @@
+cargo-features = ["panic-immediate-abort"]
+
+[package]
+name = "csps-controller"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = ["ch32-hal/ch32v003a4m6", "ch32-metapac/ch32v003a4m6", "embassy-executor/platform-spin"]
+
+[dependencies]
+ch32-hal = { 
+    git = "https://github.com/ch32-rs/ch32-hal",
+    version = "0.1.0",
+    features = ["memory-x","embassy","time-driver-tim2","rt","exti"],
+    default-features = false,
+}
+ch32-metapac = { version = "0.1.0", 
+    default-features = false,
+}
+
+qingke = "0.7"
+# Dont use highcode feature (uses too nuch RAM)
+qingke-rt = { version = "0.7", features=[] }
+
+embedded-hal = "1.0.0"
+
+# portable-atomic = { version = "1.14.0", features = ["unsafe-assume-single-core"] }
+# (Need critical-section for fetch_add etc)
+portable-atomic = { version = "1.14.0" }
+heapless = { version = "0.9.3" }
+
+embassy-executor = { version = "0.10.0", features = ["executor-thread"] }
+embassy-sync = "0.8.0"
+embassy-time = { version = "0.5.1", features = ["tick-hz-1_000"] }
+embassy-futures = "0.1.2"
+
+[profile.release]
+panic = "immediate-abort"
+opt-level = "z"
+lto = "fat"
+codegen-units = 1
+debug = 2              # free: DWARF isn't ALLOC, never reaches flash
+overflow-checks = false
+debug-assertions = false
+incremental = false
+strip = false          # keep symbols for wlink regs → dpc lookup
+
+[profile.dev]
+overflow-checks = false
+

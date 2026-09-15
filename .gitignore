@@ -1,0 +1,4 @@
+Cargo.lock
+firmware/target
+*.swp
+.DS_Store
