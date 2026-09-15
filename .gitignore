@@ -1,4 +1,13 @@
+# Rust
 Cargo.lock
 firmware/target
+
+# Vim
 *.swp
+
+# KiCad
+*.lck
+.history
+
+# MacOS
 .DS_Store
