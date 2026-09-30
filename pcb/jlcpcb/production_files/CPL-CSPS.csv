@@ -8,7 +8,6 @@ C6,100nF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,164.35,-81.7,0.0,bottom
 C7,100nF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,207.3,-72.7,180.0,bottom
 D2,LED,LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,192.5875,-73.4,0.0,bottom
 D3,SMAJ14A,D_SMA,197.47,-83.775,180.0,bottom
-J1,Conn_02x32_Counter_Clockwise,2x32 Edge Connector,166.201,-94.145,90.0,top
 J11,Conn_01x02,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,206.5,-66.525,180.0,bottom
 J2,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,173.8,-65.78,180.0,bottom
 J3,Conn_01x03,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,181.25,-66.6,180.0,bottom
