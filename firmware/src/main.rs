@@ -109,7 +109,7 @@ async fn main(spawner: Spawner) -> ! {
     let button = Input::new(switch, Pull::Up);
     let mut enable = Output::new(enable, Level::Low, Default::default());
     let mut board_led = Output::new(board_led, Level::Low, Default::default());
-    let mut _ext_led = Output::new(ext_led, Level::Low, Default::default());
+    let mut ext_led = Output::new(ext_led, Level::Low, Default::default());
     let ps_alarm = Input::new(ps_alarm, Pull::Down);
     let ps_ok = Input::new(ps_ok, Pull::Down);
     let mut adc = Adc::new(p.ADC1, Default::default());
@@ -234,20 +234,22 @@ async fn main(spawner: Spawner) -> ! {
             }
 
             // Update LED
-            match LedState::from(LED_STATE.load(Ordering::Relaxed)) {
-                LedState::Off => board_led.set_low(),
-                LedState::On => board_led.set_high(),
-                LedState::SlowFlash => {
-                    if count.is_multiple_of(8) {
-                        board_led.toggle()
+            for led in [&mut board_led, &mut ext_led] {
+                match LedState::from(LED_STATE.load(Ordering::Relaxed)) {
+                    LedState::Off => led.set_low(),
+                    LedState::On => led.set_high(),
+                    LedState::SlowFlash => {
+                        if count.is_multiple_of(8) {
+                            led.toggle()
+                        }
                     }
-                }
-                LedState::FastFlash => {
-                    if count.is_multiple_of(2) {
-                        board_led.toggle()
+                    LedState::FastFlash => {
+                        if count.is_multiple_of(2) {
+                            led.toggle()
+                        }
                     }
+                    _ => {}
                 }
-                _ => {}
             }
 
             count = count.wrapping_add(1);
