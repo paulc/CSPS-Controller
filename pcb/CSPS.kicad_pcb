@@ -963,7 +963,7 @@
 				)
 			)
 		)
-		(attr through_hole exclude_from_pos_files exclude_from_bom)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -5.08 -83.124)
@@ -1795,7 +1795,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2907329"
+		(property "LCSC" "C4502"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2348,7 +2348,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2907423"
+		(property "LCSC" "C17902"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2747,7 +2747,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2907295"
+		(property "LCSC" "C4410"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2912,7 +2912,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2907423"
+		(property "LCSC" "C17902"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3827,7 +3827,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C105427"
+		(property "LCSC" "C17936"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3992,7 +3992,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C126469"
+		(property "LCSC" "C24497"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4445,7 +4445,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22K"
+		(property "Value" "15K"
 			(at 0 -1.83 90)
 			(layer "B.Fab")
 			(uuid "b8d7f99d-6501-49b9-97fe-2ed20b1713d8")
@@ -4481,7 +4481,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2907309"
+		(property "LCSC" "C25828"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4646,7 +4646,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C98192"
+		(property "LCSC" "C29823"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4764,7 +4764,7 @@
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D3"
-			(at -4.57 0.825 0)
+			(at -5.27 0.045 0)
 			(layer "B.SilkS")
 			(uuid "1e79b83d-b786-4c21-9501-059364879cb0")
 			(effects
@@ -5122,7 +5122,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C965815"
+		(property "LCSC" "C3646937"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5338,7 +5338,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C114237"
+		(property "LCSC" "C17948"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5827,7 +5827,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2907423"
+		(property "LCSC" "C17902"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5992,7 +5992,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2907294"
+		(property "LCSC" "C17901"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6157,7 +6157,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C126469"
+		(property "LCSC" "C24497"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6322,7 +6322,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2907294"
+		(property "LCSC" "C17901"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6767,7 +6767,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C126469"
+		(property "LCSC" "C24497"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6932,7 +6932,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C114237"
+		(property "LCSC" "C17948"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7097,7 +7097,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2907294"
+		(property "LCSC" "C17901"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7916,7 +7916,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2907423"
+		(property "LCSC" "C17902"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8372,7 +8372,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C126469"
+		(property "LCSC" "C24497"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9349,7 +9349,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C19110"
+		(property "LCSC" "C50254"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9838,7 +9838,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C126469"
+		(property "LCSC" "C24497"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10981,6 +10981,56 @@
 		(layer "B.SilkS")
 		(uuid "0d35d5af-90df-42fd-b370-76a99f3a76b2")
 	)
+	(gr_line
+		(start 193.5 82.2)
+		(end 193.5 85.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "56e1c0ff-353a-4892-96dc-0565e9a0c2e6")
+	)
+	(gr_line
+		(start 197 83)
+		(end 197 84.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "dd1d3fda-9a89-48bc-83ff-e877b6c2ccd8")
+	)
+	(gr_line
+		(start 197.8 83)
+		(end 197 83.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "ad5a263f-a2a5-4236-aca0-e09926bf395f")
+	)
+	(gr_line
+		(start 197.8 83)
+		(end 197.8 84.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "26e94790-2982-4eff-9c55-6ba4d58c0f25")
+	)
+	(gr_line
+		(start 197.8 84.6)
+		(end 197 83.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "5f855d0d-d3f8-4632-92bd-78c34a3e6213")
+	)
 	(gr_rect
 		(start 118.65 61.179518)
 		(end 213.65 103.679518)
@@ -11149,7 +11199,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Rev: 1.0  https://github.com/paulc/CSPS-Controller"
+	(gr_text "Rev: 1.1  https://github.com/paulc/CSPS-Controller"
 		(at 157.4 66.75 0)
 		(layer "B.SilkS")
 		(uuid "53d15cbe-410b-43c8-bb42-9b8e541b2eca")
@@ -11297,18 +11347,6 @@
 		(at 190.65 75.2 0)
 		(layer "B.SilkS")
 		(uuid "f05fa758-475b-4762-8b0f-4c7a908181b7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "+"
-		(at 193.7 83.7 0)
-		(layer "B.SilkS")
-		(uuid "b5afb99e-34ae-4d7c-8704-0d1d6dd4ca6b")
 		(effects
 			(font
 				(size 1 1)
